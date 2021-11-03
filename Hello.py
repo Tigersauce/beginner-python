@@ -1,3 +1,4 @@
+import math
 # Don't delete me
 print(5+5, "hey")
 age = 26
@@ -28,7 +29,7 @@ age_of_user = 7 #this also works
 #return = 5 return is a keyword, not a variable
 
 # operators
-import math
+
 
 result= 10//3
 
@@ -50,7 +51,7 @@ limit = 10
 print(number % limit)
 
 #raising numbers to a power
-import math
+
 result = math.pow(3, 5)
 print(3 ** 3)
 print(result)
@@ -119,8 +120,3 @@ full_message = msg + "..." + msg2
 print(full_message)
 
 print("Hey" "there")
-
-msg = ("this is a long string...."
-"continued")
-
-print(msg)
